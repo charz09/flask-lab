@@ -1,0 +1,50 @@
+# Personal Portfolio website
+
+Dark Theme Personal Portfolio Website written using Flask Framework in Python.
+
+
+## Technologies Used
+- Frontend
+    - HTML
+    - CSS
+    - JS
+
+- Backend
+    - Python
+    - mysql
+
+## Installation
+- Install pre-requirements
+    - git
+    - Python 3.X
+
+
+    ```
+
+- Change directory
+    ```bash
+    cd c22020237_flask_lab2
+    ```
+
+- Install Project requirements
+    ```bash
+    python -m pip install -r requirements.txt
+    ```
+  
+
+- Make Database migrations
+    ```bash
+    flask db init
+    flask db migrate -m "initial migration"
+    flask db upgrade
+    ```
+
+- run application using run server
+  set FLASK_APP=run.py
+    ```
+
+
+
+## TODO
+- [ ] Make Website Responsive
+- [ ] Create Blogs
